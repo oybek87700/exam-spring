@@ -5,7 +5,9 @@ import com.example.examspring.dto.ApiResponse;
 import com.example.examspring.entity.AddRole;
 import com.example.examspring.repository.AddRoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AddRoleService {
     @Autowired
     AddRoleRepository addRoleRepository;
